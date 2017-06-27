@@ -16,6 +16,11 @@ source ~/.profile
 sudo rm -r nvm
 nvm install 6.11.0
 
+# Install Jenkins CI
+# wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+# sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+# sudo apt-get update && sudo apt-get -y install jenkins
+
 # Configure .vim/.vimrc
 wget https://gist.githubusercontent.com/FlyingV2/accd602b4c021830652a/raw/5e07386774cd79da22eb61b7348c97d2c1198125/.vimrc
 mkdir -p ~/.vim/bundle
