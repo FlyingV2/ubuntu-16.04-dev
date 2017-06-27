@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# This is my vagrant provision script.
 sudo service vboxadd start
 
 echo "Provisioning virtual machine..."
